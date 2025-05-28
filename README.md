@@ -9,9 +9,6 @@ A minimal Raft-style consensus implementation featuring leader election, log rep
 - Network message dropout handling
 - CLI demo with 5-node cluster
 
-## Architecture
-![Raft Architecture Diagram](docs/raft_arch.png)
-
 ### Components:
 - **Node States**: Follower, Candidate, Leader
 - **Election Timeout**: 150-300ms randomized
