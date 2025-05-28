@@ -1,0 +1,9 @@
+[2024-05-27 14:00:00] Node 1 (Follower) - Election timeout
+[2024-05-27 14:00:00] Node 1 (Candidate) - Starting election for term 3
+[2024-05-27 14:00:00] Node 2 - Granted vote to Node 1 (term 3)
+[2024-05-27 14:00:00] Node 1 (Leader) - Elected with 3/5 votes
+[2024-05-27 14:00:01] Leader 1 - Replicated "SET x=5" to 4/5 nodes
+[2024-05-27 14:00:02] Node 3 - Detected leader failure
+[2024-05-27 14:00:02] Node 3 (Candidate) - Starting election for term 4
+[2024-05-27 14:00:02] Node 4 - Granted vote to Node 3 (term 4)
+[2024-05-27 14:00:02] Node 3 (Leader) - Committed entry index 25
