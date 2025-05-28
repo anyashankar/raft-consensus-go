@@ -15,4 +15,3 @@ A minimal Raft-style consensus implementation featuring leader election, log rep
 - **Heartbeat Interval**: 50ms
 - **Log Structure**: Term-indexed entries with LSM-style persistence
 
-## Quick Start
