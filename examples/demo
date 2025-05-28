@@ -1,0 +1,15 @@
+# Start cluster with network simulation
+$ go run cmd/demo/main.go -nodes 5 -drop-rate 0.2
+
+# Console Output:
+[NODE 1] Joined cluster as follower
+[NODE 2] Joined cluster as follower  
+[NODE 3] Joined cluster as follower
+[NODE 4] Joined cluster as follower
+[NODE 5] Joined cluster as follower
+
+[14:00:00] [ELECTION] Node 3 elected leader for term 1
+[14:00:01] [COMMIT] Leader 3 committed "INIT" (index=0)
+[14:00:02] [NETWORK] Message dropped from Node 3 to Node 1
+[14:00:03] [CRASH] Node 3 intentionally crashed
+[14:00:04] [ELECTION] Node 5 elected leader for term 2
